@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proyecto.html">Proyectos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="contacto">
+      <div class="row py-sm-5 py-3">
+        <div class="col-12">
+          <h1>¡Trabajemos Juntos!</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-sm-12">
+          <h4>Para más detallas sobre mi trabajo podés ver mi linkedin, descargar mi CV o enviarme un mensaje</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-10">
+          <form action="">
+            <div class="row">
+              <div class="col-6 formgroup">
+                <input type="text" name="txtText" id="txtText" class="form-control" required placeholder="NOMBRE">
+              </div>
+              <div class="col-6 formgroup">
+                <input type="email" name="txtCorreo" id="txtCorreo" class="form-control" required placeholder="CORREO">
+              </div>
+              <div class="col-12 my-2 formgroup">
+                <input type="text" name="txtAsunto" id="txtAsunto" class="form-control" required placeholder="ASUNTO">
+              </div>
+              <div class="col-12 my-2 formgroup">
+                <textarea name="txtMensaje" id="txtMensaje" rows="10" class="form-control" required
+                  placeholder="MENSAJE"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <input type="submit" name="btnEnviar" value="Enviar" class="btn">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row py-4">
+        <div class="col-12 col-sm-4 text-left">
+          <p><span><a href="index.html">Todos los derechos reservados <br>2020</a></span></p>
+        </div>
+        <div class="col-12 col-sm-4 text-center">
+          <a href="https://api.whatsapp.com/send?phone=541199999999&amp;text=Hola" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+          <a href="https://ar.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="col-12 col-sm-4 text-right">
+          <p>Patrocinado por <br><span><a href="https://depcsuite.com" target="_blank">DePCsuite</a></span></p>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
